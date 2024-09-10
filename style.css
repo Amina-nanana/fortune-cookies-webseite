@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+    font-family: sans-serif
+}
+body {
+    background: linear-gradient(#e66465, gold, #e66465);
+    color: brown;
+    font-style: normal;
+    font-size: 17px;
+}
+a{
+    color: brown;
+    font-style: normal;
+    font-size: 35px;
+}
+.box{
+    margin-top: 40px;
+    margin-bottom: 150px;
+    font-size: 35px;
+}
+button{
+    margin-top: 200px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+}
+.rot{
+    animation: 3s linear infinite rotate;
+}
+.pivont-point {
+    position: absolute;
+    top: 40%;
+    left: 40%;}
+
+.glow{
+    background: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -270px;
+
+}
+
+
+.open{
+    transform: scale(1.5) rotate(3.5deg);
+}
+#quote {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -130px;
+    z-index: 10;
+    position: relative;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);}
+}
